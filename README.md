@@ -1,1 +1,1 @@
-# complete-website
+This will be my first real website template based on a given screenshot.

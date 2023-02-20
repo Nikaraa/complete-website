@@ -5,16 +5,13 @@
 body{
     margin: 0;
     padding: 0;
-   
     color: #F9FAF8;
-
     font-size: 18px;
 }
 
 .firstcontainer{
     background: #1F2937;
-    padding: 4px 130px 160px 130px;
-    
+    padding: 4px 290px 160px 290px;
 }
 
 button{
@@ -25,8 +22,12 @@ button{
     margin-top: 20px;
     font-size: 20px;
     color: #E5E7EB;
+    font-weight: bold;
 }
 
+button:hover{
+    background: rgb(20, 114, 192);
+}
 
 
 .header{
@@ -38,6 +39,9 @@ button{
 
 .right{
     display: flex;
+    
+    flex-shrink: 1;
+    align-items: flex-end;
     gap: 18px;
     color: #E5E7EB;
 }
@@ -54,7 +58,7 @@ button{
     font-size: 48px;
     font-weight: bolder;
     max-width: 350px;
-
+  
 
 }
 
@@ -62,8 +66,6 @@ button{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-
-
 }
 
 .littlepar{
@@ -75,7 +77,6 @@ button{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    
 }
 
 .greyrectangle{
@@ -85,6 +86,7 @@ button{
     align-items: center;
     padding: 50px 150px;
     flex-shrink: 1;
+    margin-left: 80px;
 
 }
 
@@ -108,19 +110,64 @@ button{
     align-items: center;
 }
 
-.blocks div{
+.blocks > div{
     display: inline-block;
-
-    background: rgb(227, 141, 141);
-    border-radius: 10px;
-
-    border-color: solid #3882F6;
+    
+    border: 5px solid  #3882F6;
+    border-radius: 15px;
+    width: 170px;
+    height: 150px;
     padding: 10px;
+    margin: 20px 20px 0px 20px;
 }
 
-.subtext{
+.subtext > span {
+    display: inline-block;
+    justify-content: space-between;
+    width: 180px;
+    height: 150px;
+    padding: 10px;
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.inspiration{
+    color: #1F2937;
+    background-color: #E5E7EB;
     display: flex;
-    padding: 2px;
+    flex: 1;
+    flex-direction: column;
+    padding: 200px 320px;
+}
+
+.para{
+    font-style: italic;
+    font-size: 36px;
+}
+
+.thor{
+    font-weight: bolder;
+    align-self: flex-end;
+    font-size: 30px;
+}
+
+.message{
+    padding: 100px 290px;
+    
+    color: #F9FAF8;
+    background: #3882F6;
+    
 }
 
 
+
+.flex2 > button{
+    border: 3px solid white;
+    padding: 3px 30px;
+    font-weight: bold; 
+}
+
+button:active{
+    background-color: rgba(139, 210, 15, 0.508);
+}

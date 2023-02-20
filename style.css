@@ -11,7 +11,7 @@ body{
 
 .firstcontainer{
     background: #1F2937;
-    padding: 4px 290px 160px 290px;
+    padding: 4px 240px 160px 240px;
 }
 
 button{
@@ -34,7 +34,7 @@ button:hover{
 
 .header{
     display: flex;
-
+    gap: 38px;
     margin-bottom: 150px;
     align-items: center;
     justify-content: space-between;
@@ -47,17 +47,34 @@ button:hover{
 }
 
 .right{
-    margin-left: 38 px;
+
     display: flex;
     align-items: flex-end;
     gap: 38px;
     color: #E5E7EB;
+
 }
 
 
 .left{
     font-weight:900;
     font-size: 24px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.greyrectangle{
+    background: #8d8d8d;
 
 }
 
@@ -65,37 +82,15 @@ button:hover{
     font-size: 48px;
     font-weight: bolder;
     max-width: 350px;
-  
-
 }
 
-.body{
-    display: flex;
-    justify-content: space-between;
-    
-    flex-wrap: wrap;
-
-}
-
-.littlepar{
+.littlepar{ 
     width: 450px;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
 
-.greyrectangle{
-    background: rgb(137, 137, 137);
-    display: flex;
-    flex: 1;
-    padding: 70px 50px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-}
+
+
 
 .underbackground{
     background: white;
@@ -166,20 +161,22 @@ button:hover{
 }
 
 .message{
-    background: #3882F6;
     display: flex;
-    flex-direction:column;
-    margin: 100px 290px;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #3882F6;
+    margin: 100px 240px;
     padding: 50px 100px;
-    flex-wrap: nowrap;
-
 }
 
-.flex2{
+.first{
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.second{
+    display: flex;
+
 }
 
 .title-message{
@@ -187,7 +184,7 @@ button:hover{
     font-size: 25px;
 }
 
-.flex2 > button{
+.message > button{
     border: 3px solid white;
     padding: 8px 28px;
     margin-top: 20px;

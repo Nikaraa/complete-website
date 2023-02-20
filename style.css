@@ -3,19 +3,26 @@
 }
 
 body{
-    margin-top: 12px;
-    background: #1F2937;
-     color: #F9FAF8;
-    padding-left: 130px;
-    padding-right: 130px;
+    margin: 0;
+    padding: 0;
+   
+    color: #F9FAF8;
+
     font-size: 18px;
+}
+
+.firstcontainer{
+    background: #1F2937;
+    padding: 4px 130px 160px 130px;
+    
 }
 
 button{
     background-color: #3882F6;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 8px 28px;
+    margin-top: 20px;
     font-size: 20px;
     color: #E5E7EB;
 }
@@ -25,7 +32,7 @@ button{
 .header{
     justify-content: space-between;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     align-items: center;
 }
 
@@ -45,7 +52,7 @@ button{
 
 .bigtitle{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     max-width: 350px;
 
 
@@ -53,12 +60,46 @@ button{
 
 .body{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
 }
 
-.greyrectangle{
+.littlepar{
+    width: 450px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     
 }
 
+.greyrectangle{
+    background: rgb(137, 137, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+    flex-shrink: 1;
+
+}
+
+.underbackground{
+    background: white;
+    color: #1F2937;
+
+}
+
+.secondtitle{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 22px;
+}
 
 
 

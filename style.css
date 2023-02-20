@@ -73,7 +73,6 @@ button:hover{
     display: flex;
     justify-content: space-between;
     
-    margin-bottom: 20px;
     flex-wrap: wrap;
 
 }
@@ -85,14 +84,17 @@ button:hover{
 .content{
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    flex: 1;
 }
 
 .greyrectangle{
     background: rgb(137, 137, 137);
-    align-self: center;
-    
+    display: flex;
+    flex: 1;
     padding: 70px 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
 }
 
 .underbackground{
@@ -138,7 +140,7 @@ button:hover{
    flex:1 0 auto;
    width: 150px;
    height: 150px;
-   border: 5px solid #3882F6;
+   border: 4px solid #3882F6;
    border-radius: 8px;
 }
 
@@ -183,11 +185,7 @@ button:hover{
 .title-message{
     font-weight: bolder;
     font-size: 25px;
-
-
 }
-
-
 
 .flex2 > button{
     border: 3px solid white;
@@ -201,4 +199,12 @@ button:hover{
 
 button:active{
     background-color: rgba(139, 210, 15, 0.508);
+}
+
+.footer{
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 50px 0;
 }

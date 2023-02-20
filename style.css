@@ -20,9 +20,11 @@ button{
     border-radius: 8px;
     padding: 8px 28px;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
     color: #E5E7EB;
     font-weight: bold;
+    align-self: flex-start;
 }
 
 button:hover{
@@ -31,24 +33,29 @@ button:hover{
 
 
 .header{
-    justify-content: space-between;
     display: flex;
+
     margin-bottom: 150px;
     align-items: center;
+    justify-content: space-between;
+}
+
+#one:hover, 
+#two:hover,
+#three:hover{
+    color: #8d8d8d;
 }
 
 .right{
+    margin-left: 38 px;
     display: flex;
-    
-    flex-shrink: 1;
     align-items: flex-end;
-    gap: 18px;
+    gap: 38px;
     color: #E5E7EB;
 }
 
 
 .left{
-    margin-right: 20px;
     font-weight:900;
     font-size: 24px;
 
@@ -65,7 +72,10 @@ button:hover{
 .body{
     display: flex;
     justify-content: space-between;
+    
     margin-bottom: 20px;
+    flex-wrap: wrap;
+
 }
 
 .littlepar{
@@ -75,24 +85,20 @@ button:hover{
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-right: 30px;
 }
 
 .greyrectangle{
     background: rgb(137, 137, 137);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 150px;
-    flex-shrink: 1;
-    margin-left: 80px;
-
+    align-self: center;
+    
+    padding: 70px 50px;
 }
 
 .underbackground{
     background: white;
     color: #1F2937;
+
 }
 
 .flex, .over{
@@ -105,6 +111,7 @@ button:hover{
     font-weight: bolder;
     text-align: center;
     padding: 22px;
+    margin: 30px;
 }
 
 .flex{
@@ -113,26 +120,26 @@ button:hover{
 }
 
 .over{
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
     align-items: center;
-    
+    margin: 0px 18px 30px 18px;
 }
 
 .subtext{
-    width: 170px;
+    width: 150px;
+    font-size: 16px;    
     text-align: center;
+    
 }
 
 .blocks{
-    border: 5px solid  #3882F6;
-    border-radius: 15px;
-    width: 170px;
-    height: 150px;
-    padding: 10px;
-    margin: 20px 20px 0px 20px;
+   flex:1 0 auto;
+   width: 150px;
+   height: 150px;
+   border: 5px solid #3882F6;
+   border-radius: 8px;
 }
 
 .inspiration{
@@ -157,39 +164,39 @@ button:hover{
 }
 
 .message{
-    padding: 30px 290px;
-    
-    color: #F9FAF8;
     background: #3882F6;
-    margin:100px 200px;
-    border-radius: 8px;
-
-}
-
-.message{
     display: flex;
     flex-direction:column;
+    margin: 100px 290px;
+    padding: 50px 100px;
+    flex-wrap: nowrap;
+
 }
 
 .flex2{
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
-
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .title-message{
     font-weight: bolder;
     font-size: 25px;
+
+
 }
 
 
 
 .flex2 > button{
     border: 3px solid white;
-    padding: 3px 30px;
+    padding: 8px 28px;
+    margin-top: 20px;
+    font-size: 20px;
     font-weight: bold;
     align-self: flex-start;
+    overflow: hidden;
 }
 
 button:active{

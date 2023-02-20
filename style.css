@@ -38,6 +38,7 @@ button:hover{
     margin-bottom: 150px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #one:hover, 
@@ -47,7 +48,7 @@ button:hover{
 }
 
 .right{
-
+    flex-wrap: wrap;
     display: flex;
     align-items: flex-end;
     gap: 38px;
@@ -90,6 +91,7 @@ button:hover{
 .littlepar{
     max-width: 550px;
 }
+
 
 
 .underbackground{
@@ -143,17 +145,22 @@ button:hover{
     color: #1F2937;
     background-color: #E5E7EB;
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     flex-direction: column;
-    padding: 200px 320px;
+    padding: 200px 240px;
 }
 
 .para{
+    display: flex;
+    flex-wrap: wrap;
     font-style: italic;
     font-size: 36px;
 }
 
 .thor{
+    display: flex;
+    flex-wrap: wrap;
     font-weight: bolder;
     align-self: flex-end;
     font-size: 30px;
@@ -162,8 +169,8 @@ button:hover{
 
 .message{
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
     background: #3882F6;
     margin: 100px 240px;
     padding: 50px 100px;
@@ -190,7 +197,9 @@ button:hover{
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
-    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -203,5 +212,6 @@ button:active{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 0 50px 0;
+    flex-wrap: wrap;
+    padding: 50px 240px 50px 240px;
 }

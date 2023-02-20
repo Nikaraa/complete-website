@@ -64,32 +64,32 @@ button:hover{
 .body{
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .content{
     display: flex;
     flex-direction: column;
+
 }
 
 
 .greyrectangle{
     background: #8d8d8d;
-
+    padding: 150px 50px;
 }
 
 .bigtitle{
+    max-width: 350px;
     font-size: 48px;
     font-weight: bolder;
-    max-width: 350px;
+
 }
 
-.littlepar{ 
-    width: 450px;
+.littlepar{
+    max-width: 550px;
 }
-
-
-
 
 
 .underbackground{

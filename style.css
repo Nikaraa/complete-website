@@ -101,5 +101,26 @@ button{
     padding: 22px;
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks div{
+    display: inline-block;
+
+    background: rgb(227, 141, 141);
+    border-radius: 10px;
+
+    border-color: solid #3882F6;
+    padding: 10px;
+}
+
+.subtext{
+    display: flex;
+    padding: 2px;
+}
 
 
